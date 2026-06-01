@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Consultation | Svetlana Clark Hair Design | Houston TX</title>
+    <meta name="description" content="Reach out to Svetlana Clark Hair Design. Complete your virtual consultation intake, check our studio location, view our salon hours, or send an inquiry.">
+    
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- FIXED GLASSMORPHIC HEADER -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo-link" id="logoLink">
+                <img src="assets/logo.png" alt="Svetlana Clark Logo" class="logo-img">
+                <span class="logo-text">Svetlana Clark</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link" id="navHome">Home</a></li>
+                    <li><a href="services.html" class="nav-link" id="navServices">Services</a></li>
+                    <li><a href="about.html" class="nav-link" id="navAbout">About</a></li>
+                    <li><a href="new-clients.html" class="nav-link" id="navNewClients">New Clients</a></li>
+                    <li><a href="contact.html" class="nav-link active" id="navContact">Contact</a></li>
+                    <li><button class="btn-header-book open-booking-wizard" id="headerBookBtn">Book Now</button></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" aria-label="Toggle menu" id="hamburgerBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- CONTACT HERO SECTION -->
+    <section class="contact-hero" style="padding-top: 170px; padding-bottom: 4rem;">
+        <div class="section-container">
+            <div class="section-header" style="margin-bottom: 2rem;">
+                <span class="section-label">Connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p style="color: var(--color-text-secondary); margin-top: 1.25rem; max-width: 650px; margin-left: auto; margin-right: auto; line-height: 1.75;">
+                    Whether you have questions about a service or want to initiate a virtual consultation, I look forward to hearing from you.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT GRID LAYOUT -->
+    <section class="contact-grid-section" style="padding-top: 2rem; padding-bottom: 6rem;">
+        <div class="section-container contact-layout-grid">
+            
+            <!-- Left Side: Contact Cards & Operating Hours -->
+            <div class="contact-details-panel">
+                <div class="contact-cards-container">
+                    
+                    <!-- Phone Card -->
+                    <div class="contact-detail-card">
+                        <div class="card-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="card-info-text">
+                            <h4>Call or Text</h4>
+                            <p class="highlight-text">832-485-8795</p>
+                            <p class="muted-text">Texts are highly preferred. Standard response in 24-48 hours, M-F.</p>
+                        </div>
+                    </div>
+
+                    <!-- Email Card -->
+                    <div class="contact-detail-card">
+                        <div class="card-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="card-info-text">
+                            <h4>Email Address</h4>
+                            <p class="highlight-text">svclark9@gmail.com</p>
+                            <p class="muted-text">Best for general questions, collaboration proposals, or business inquiries.</p>
+                        </div>
+                    </div>
+
+                    <!-- Studio Card -->
+                    <div class="contact-detail-card">
+                        <div class="card-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="card-info-text">
+                            <h4>Styling Studio</h4>
+                            <p class="highlight-text">Inside Sola Salon Studios</p>
+                            <p class="muted-text">5757 Woodway Drive, G100 Suite 20<br>Houston, TX 77057</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Salon Hours Card -->
+                <div class="contact-hours-card" style="margin-top: 2.5rem; background-color: var(--color-bg-secondary); border: var(--border-gold-subtle); padding: 2.5rem; border-radius: var(--radius-medium);">
+                    <h3 style="font-size: 1.4rem; color: var(--color-accent-gold); margin-bottom: 1.5rem; text-transform: uppercase; font-family: var(--font-accent); font-weight: 600; letter-spacing: 1px;">Salon Hours</h3>
+                    <table class="hours-table" style="width: 100%; border-collapse: collapse;">
+                        <tr style="border-bottom: 1px solid rgba(192, 159, 87, 0.15);">
+                            <td class="day" style="padding: 0.8rem 0; color: var(--color-text-primary); font-weight: 500;">Monday</td>
+                            <td class="time" style="padding: 0.8rem 0; text-align: right; color: var(--color-text-muted);">Closed</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(192, 159, 87, 0.15);">
+                            <td class="day" style="padding: 0.8rem 0; color: var(--color-text-primary); font-weight: 500;">Tuesday - Saturday</td>
+                            <td class="time" style="padding: 0.8rem 0; text-align: right; color: var(--color-accent-gold);">10:00 AM - 6:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="day" style="padding: 0.8rem 0; color: var(--color-text-primary); font-weight: 500;">Sunday</td>
+                            <td class="time" style="padding: 0.8rem 0; text-align: right; color: var(--color-text-muted);">Closed</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Right Side: Stepper Consultation Box -->
+            <div class="consultation-form-panel">
+                <div class="consultation-box" style="background-color: var(--color-bg-secondary); border: var(--border-gold-subtle); padding: 3rem; border-radius: var(--radius-large); box-shadow: var(--shadow-luxe-subtle);">
+                    <h3 style="font-size: 1.75rem; margin-bottom: 0.5rem; text-align: center;">Virtual Consultation</h3>
+                    <p style="color: var(--color-text-secondary); font-size: 0.95rem; text-align: center; margin-bottom: 2rem;">
+                        Ready for your next look? Fill out this profile to share your hair history and preferences.
+                    </p>
+
+                    <div class="step-indicator" style="display: flex; gap: 0.75rem; margin-bottom: 2.5rem;">
+                        <div class="step-dot active"></div>
+                        <div class="step-dot"></div>
+                        <div class="step-dot"></div>
+                    </div>
+                    
+                    <form id="consultationForm">
+                        <!-- Step 1: Contact -->
+                        <div class="consult-form-step active" data-step="0">
+                            <div class="form-group" style="margin-bottom: 1.5rem;">
+                                <label for="fullName">Full Name *</label>
+                                <input type="text" class="form-control" id="fullName" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 2rem;">
+                                <label for="phoneNumber">Phone Number *</label>
+                                <input type="tel" class="form-control" id="phoneNumber" placeholder="Your phone number" required>
+                            </div>
+                            <div class="form-buttons" style="display: flex; justify-content: flex-end;">
+                                <button type="button" class="btn-form next" style="background: linear-gradient(135deg, var(--color-accent-gold), var(--color-accent-copper)); color: var(--color-bg-primary); border: none;">Continue</button>
+                            </div>
+                        </div>
+
+                        <!-- Step 2: Request Details -->
+                        <div class="consult-form-step" data-step="1">
+                            <div class="form-group" style="margin-bottom: 2rem;">
+                                <label for="servicesInterested">What Services are you interested in? *</label>
+                                <textarea class="form-control" id="servicesInterested" placeholder="Describe your current hair history, chemical treatments, and visual goals..." required></textarea>
+                            </div>
+                            <div class="form-buttons" style="display: flex; justify-content: space-between;">
+                                <button type="button" class="btn-form prev" style="background: transparent; color: var(--color-text-primary); border: 1px solid rgba(192, 159, 87, 0.35);">Back</button>
+                                <button type="button" class="btn-form next" style="background: linear-gradient(135deg, var(--color-accent-gold), var(--color-accent-copper)); color: var(--color-bg-primary); border: none;">Continue</button>
+                            </div>
+                        </div>
+
+                        <!-- Step 3: Date/Time -->
+                        <div class="consult-form-step" data-step="2">
+                            <div class="form-group" style="margin-bottom: 1.5rem;">
+                                <label for="preferredDate">Preferred Date *</label>
+                                <input type="date" class="form-control" id="preferredDate" required>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 2rem;">
+                                <label for="preferredTime">Preferred Time *</label>
+                                <input type="time" class="form-control" id="preferredTime" required>
+                            </div>
+                            <div class="form-buttons" style="display: flex; justify-content: space-between;">
+                                <button type="button" class="btn-form prev" style="background: transparent; color: var(--color-text-primary); border: 1px solid rgba(192, 159, 87, 0.35);">Back</button>
+                                <button type="submit" class="btn-form submit" style="background: linear-gradient(135deg, var(--color-accent-gold), var(--color-accent-copper)); color: var(--color-bg-primary); border: none;">Submit Profile</button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="success-message" id="successMsg" style="display: none; text-align: center;">
+                        <div class="success-icon" style="width: 60px; height: 60px; border-radius: 50%; background-color: var(--color-bg-primary); border: 1px solid var(--color-accent-gold); display: flex; justify-content: center; align-items: center; color: var(--color-accent-gold); font-size: 1.5rem; margin: 0 auto 1.5rem;"><i class="fa-solid fa-check"></i></div>
+                        <h3>Intake Received!</h3>
+                        <p style="color: var(--color-text-secondary); margin-top: 0.5rem; line-height: 1.6;">Svetlana will personally text or email you within 24-48 hours to discuss details and schedule your appointment slot.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FULL MAP SECTION -->
+    <section class="location-map-section" style="padding: 0; line-height: 0;">
+        <div class="map-wrapper" style="width: 100%; height: 450px; overflow: hidden; position: relative;">
+            <iframe class="map-iframe" src="https://maps.google.com/maps?q=5757%20Woodway%20Drive%20Houston%20TX%2077057&t=&z=14&ie=UTF8&iwloc=&output=embed" style="width: 100%; height: 100%; border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <img src="assets/logo.png" alt="Svetlana Clark Logo" class="footer-logo">
+                <p>Personalized dimensional color, expert gray blending, and precision haircuts designed to promote long-term hair health.</p>
+                <div class="footer-socials">
+                    <a href="https://instagram.com/svetlanaclarkhairdesign" target="_blank" class="social-circle" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com/SvetlanaClarkHairDesign" target="_blank" class="social-circle" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://tiktok.com/@svetlanaclarkhairdesign" target="_blank" class="social-circle" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://yelp.com/biz/SvetlanaClarkHairDesign" target="_blank" class="social-circle" aria-label="Yelp"><i class="fa-brands fa-yelp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services Menu</a></li>
+                    <li><a href="about.html">Meet Svetlana</a></li>
+                    <li><a href="new-clients.html">New Clients</a></li>
+                    <li><a href="contact.html">Contact Info</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p><i class="fa-solid fa-location-dot" style="margin-right: 0.5rem; color: var(--color-accent-gold);"></i> 5757 Woodway Dr, G100 Suite 20, Houston, TX 77057</p>
+                <p><i class="fa-solid fa-phone" style="margin-right: 0.5rem; color: var(--color-accent-gold);"></i> 832-485-8795</p>
+                <p><i class="fa-solid fa-envelope" style="margin-right: 0.5rem; color: var(--color-accent-gold);"></i> svclark9@gmail.com</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Svetlana Clark Hair Design. All rights reserved.</p>
+            <p>Designed for Fine Hair & Flawless Transitions</p>
+        </div>
+    </footer>
+
+    <!-- BOOKING CONCIERGE MODAL -->
+    <div class="booking-wizard-overlay" id="bookingWizard"></div>
+
+    <!-- SCRIPTS -->
+    <script src="app.js"></script>
+</body>
+</html>
+

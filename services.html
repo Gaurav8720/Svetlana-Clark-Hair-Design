@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Menu | Gray Blending, Balayage, Pixie Cuts | Svetlana Clark Hair Design</title>
+    <meta name="description" content="Browse our luxury hair styling, coloring, and amino-acid smoothing treatments in Houston/Pearland. Detailed pricing and durations.">
+    
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- FIXED GLASSMORPHIC HEADER -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo-link" id="logoLink">
+                <img src="assets/logo.png" alt="Svetlana Clark Logo" class="logo-img">
+                <span class="logo-text">Svetlana Clark</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link" id="navHome">Home</a></li>
+                    <li><a href="services.html" class="nav-link active" id="navServices">Services</a></li>
+                    <li><a href="about.html" class="nav-link" id="navAbout">About</a></li>
+                    <li><a href="new-clients.html" class="nav-link" id="navNewClients">New Clients</a></li>
+                    <li><a href="contact.html" class="nav-link" id="navContact">Contact</a></li>
+                    <li><button class="btn-header-book open-booking-wizard" id="headerBookBtn">Book Now</button></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" aria-label="Toggle menu" id="hamburgerBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- SERVICES HERO -->
+    <section class="services-hero" style="padding-top: 170px;">
+        <div class="section-container">
+            <div class="section-header" style="margin-bottom: 4rem;">
+                <span class="section-label">Offerings</span>
+                <h2 class="section-title">Interactive Services Menu</h2>
+                <p style="color: var(--color-text-secondary); margin-top: 1.25rem; max-width: 650px; margin-left: auto; margin-right: auto; line-height: 1.75;">
+                    Every hair session is fully tailored to your specific hair goals, density, and texture. Select from our menu categories below to filter services.
+                </p>
+            </div>
+            
+            <!-- Category Filters -->
+            <div class="services-filters">
+                <button class="filter-btn active" data-filter="all">All Services</button>
+                <button class="filter-btn" data-filter="color">Color & Blending</button>
+                <button class="filter-btn" data-filter="cuts">Cuts & Styling</button>
+                <button class="filter-btn" data-filter="treatments">Treatments</button>
+            </div>
+
+            <!-- Filterable List -->
+            <div class="services-list-grid">
+                
+                <!-- Service 1: Balayage -->
+                <div class="service-item-row" data-category="color">
+                    <div class="service-item-info">
+                        <h3 class="service-item-title">Luxury Balayage & Highlights <span class="service-tag">Color</span></h3>
+                        <p class="service-item-desc">Hand-painted dimensional highlights designed to create a soft, natural sun-kissed lift that grows out seamlessly with no harsh boundary lines.</p>
+                    </div>
+                    <div class="service-item-meta">
+                        <span class="service-item-price">$250+</span>
+                        <span class="service-item-duration">3.5 - 4.5 hours</span>
+                        <button class="btn-book-service open-booking-wizard">Select Service</button>
+                    </div>
+                </div>
+
+                <!-- Service 2: Gray Blending -->
+                <div class="service-item-row" data-category="color">
+                    <div class="service-item-info">
+                        <h3 class="service-item-title">Gray Blending Session <span class="service-tag">Color</span></h3>
+                        <p class="service-item-desc">Specialized multi-tonal hand painting designed to soften the boundary line of gray roots, blending them elegantly into highlights and lowlights.</p>
+                    </div>
+                    <div class="service-item-meta">
+                        <span class="service-item-price">$180+</span>
+                        <span class="service-item-duration">2.5 - 3 hours</span>
+                        <button class="btn-book-service open-booking-wizard">Select Service</button>
+                    </div>
+                </div>
+
+                <!-- Service 3: Single Process -->
+                <div class="service-item-row" data-category="color">
+                    <div class="service-item-info">
+                        <h3 class="service-item-title">Single Process / Root Retouch <span class="service-tag">Color</span></h3>
+                        <p class="service-item-desc">Full coverage formulation for new growth. Seamless gray coverage using high-end, scalp-nourishing pigment systems.</p>
+                    </div>
+                    <div class="service-item-meta">
+                        <span class="service-item-price">$110+</span>
+                        <span class="service-item-duration">1.5 - 2 hours</span>
+                        <button class="btn-book-service open-booking-wizard">Select Service</button>
+                    </div>
+                </div>
+
+                <!-- Service 4: Pixie Cut -->
+                <div class="service-item-row" data-category="cuts">
+                    <div class="service-item-info">
+                        <h3 class="service-item-title">Precision Pixie Cut <span class="service-tag">Cuts</span></h3>
+                        <p class="service-item-desc">Tailored short hair sculpt including texturizing and styling designed specifically to structure and add visual volume to fine hair types.</p>
+                    </div>
+                    <div class="service-item-meta">
+                        <span class="service-item-price">$90+</span>
+                        <span class="service-item-duration">1 hour</span>
+                        <button class="btn-book-service open-booking-wizard">Select Service</button>
+                    </div>
+                </div>
+
+                <!-- Service 5: Signature Cut -->
+                <div class="service-item-row" data-category="cuts">
+                    <div class="service-item-info">
+                        <h3 class="service-item-title">Signature Cut & Style <span class="service-tag">Cuts</span></h3>
+                        <p class="service-item-desc">Includes an in-depth consultation, professional shampoo, relaxing head massage, custom haircut, and a premium editorial blow-dry finish.</p>
+                    </div>
+                    <div class="service-item-meta">
+                        <span class="service-item-price">$110+</span>
+                        <span class="service-item-duration">1 - 1.25 hours</span>
+                        <button class="btn-book-service open-booking-wizard">Select Service</button>
+                    </div>
+                </div>
+
+                <!-- Service 6: Pura Luxe -->
+                <div class="service-item-row" data-category="treatments">
+                    <div class="service-item-info">
+                        <h3 class="service-item-title">Pura Luxe Amino Acid Smoothing <span class="service-tag">Treatments</span></h3>
+                        <p class="service-item-desc">Formulated with natural amino acids to safely penetrate the hair shaft and reconstruct internal bonds. Custom-tailored to strip frizz, relax curls, and restore brilliant shine.</p>
+                    </div>
+                    <div class="service-item-meta">
+                        <span class="service-item-price">$300+</span>
+                        <span class="service-item-duration">3 - 3.5 hours</span>
+                        <button class="btn-book-service open-booking-wizard">Select Service</button>
+                    </div>
+                </div>
+
+                <!-- Service 7: Malibu C -->
+                <div class="service-item-row" data-category="treatments">
+                    <div class="service-item-info">
+                        <h3 class="service-item-title">Malibu C Hard Water Treatment <span class="service-tag">Treatments</span></h3>
+                        <p class="service-item-desc">Science-backed remedy using a freshly-activated crystallized Vitamin C complex to lift heavy hard-water minerals, chlorine, and copper build-up from hair fibers.</p>
+                    </div>
+                    <div class="service-item-meta">
+                        <span class="service-item-price">$60+</span>
+                        <span class="service-item-duration">45 mins</span>
+                        <button class="btn-book-service open-booking-wizard">Select Service</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <img src="assets/logo.png" alt="Svetlana Clark Logo" class="footer-logo">
+                <p>Personalized dimensional color, expert gray blending, and precision haircuts designed to promote long-term hair health.</p>
+                <div class="footer-socials">
+                    <a href="https://instagram.com/svetlanaclarkhairdesign" target="_blank" class="social-circle" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com/SvetlanaClarkHairDesign" target="_blank" class="social-circle" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://tiktok.com/@svetlanaclarkhairdesign" target="_blank" class="social-circle" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://yelp.com/biz/SvetlanaClarkHairDesign" target="_blank" class="social-circle" aria-label="Yelp"><i class="fa-brands fa-yelp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services Menu</a></li>
+                    <li><a href="about.html">Meet Svetlana</a></li>
+                    <li><a href="new-clients.html">New Clients</a></li>
+                    <li><a href="contact.html">Contact Info</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p><i class="fa-solid fa-location-dot" style="margin-right: 0.5rem; color: var(--color-accent-gold);"></i> 5757 Woodway Dr, G100 Suite 20, Houston, TX 77057</p>
+                <p><i class="fa-solid fa-phone" style="margin-right: 0.5rem; color: var(--color-accent-gold);"></i> 832-485-8795</p>
+                <p><i class="fa-solid fa-envelope" style="margin-right: 0.5rem; color: var(--color-accent-gold);"></i> svclark9@gmail.com</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Svetlana Clark Hair Design. All rights reserved.</p>
+            <p>Designed for Fine Hair & Flawless Transitions</p>
+        </div>
+    </footer>
+
+    <!-- BOOKING CONCIERGE MODAL -->
+    <div class="booking-wizard-overlay" id="bookingWizard"></div>
+
+    <!-- SCRIPTS -->
+    <script src="app.js"></script>
+    <script>
+      // Support linking directly to categories via URL params (e.g. services.html?category=color)
+      document.addEventListener('DOMContentLoaded', () => {
+        const params = new URLSearchParams(window.location.search);
+        const cat = params.get('category');
+        if (cat) {
+          const filterBtn = document.querySelector(`.filter-btn[data-filter="${cat}"]`);
+          if (filterBtn) {
+            filterBtn.click();
+          }
+        }
+      });
+    </script>
+</body>
+</html>
+

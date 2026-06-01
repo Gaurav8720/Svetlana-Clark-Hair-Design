@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pearland Houston | Gray Blending + Balayage | Fine Hair Pro | Svetlana Clark Hair Design</title>
+    <meta name="description" content="Gray blending meets balayage—expertly crafted in Pearland for fine hair and flawless transitions. Book your transformation today!">
+    
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- FIXED GLASSMORPHIC HEADER -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo-link" id="logoLink">
+                <img src="assets/logo.png" alt="Svetlana Clark Logo" class="logo-img">
+                <span class="logo-text">Svetlana Clark</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active" id="navHome">Home</a></li>
+                    <li><a href="services.html" class="nav-link" id="navServices">Services</a></li>
+                    <li><a href="about.html" class="nav-link" id="navAbout">About</a></li>
+                    <li><a href="new-clients.html" class="nav-link" id="navNewClients">New Clients</a></li>
+                    <li><a href="contact.html" class="nav-link" id="navContact">Contact</a></li>
+                    <li><button class="btn-header-book open-booking-wizard" id="headerBookBtn">Book Now</button></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" aria-label="Toggle menu" id="hamburgerBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- FULLSCREEN HERO SECTION -->
+    <section class="hero">
+        <div class="hero-slider-bg">
+            <img src="assets/hero_tea_leaves.jpg" alt="Natural Camellia Tea Leaves" class="slide-img active">
+            <img src="assets/hero_marble.jpg" alt="Flat lay natural marble texture" class="slide-img">
+        </div>
+        
+        <div class="hero-content">
+            <span class="hero-label">Luxury Hair Concierge</span>
+            <h1 class="hero-title">Achieving your dream look shouldn’t cost your <span>hair health</span>.</h1>
+            <p class="hero-desc">Specializing in low-maintenance gray blending, hand-painted balayage, and precision cuts for fine hair in Pearland & Houston.</p>
+            <div class="hero-ctas">
+                <a href="#" class="btn-primary gold open-booking-wizard" id="heroBookBtn">Book Appointment</a>
+                <a href="new-clients.html" class="btn-primary outline" id="heroNewBtn">New Client Guide</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- KEY SPECIALTIES -->
+    <section class="specialties">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Artistry</span>
+                <h2 class="section-title">Design Specialties</h2>
+            </div>
+            
+            <div class="specialties-grid">
+                <!-- Specialty 1 -->
+                <div class="specialty-card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/gray_blending.jpeg" alt="Gray Blending transformation" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Gray Blending & Balayage</h3>
+                        <p class="card-desc">Embrace natural silver tones with hand-painted color blending techniques designed to eliminate harsh roots grow-out.</p>
+                        <a href="services.html?category=color" class="card-link" id="specLink1">Explore Colors <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Specialty 2 -->
+                <div class="specialty-card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/hair_pixie.png" alt="Fine Hair Pixie Cut" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Fine Hair & Pixie Cuts</h3>
+                        <p class="card-desc">Bespoke structural haircuts engineered to maximize texture, bounce, and visual density for delicate or thinning hair.</p>
+                        <a href="services.html?category=cuts" class="card-link" id="specLink2">View Haircuts <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Specialty 3 -->
+                <div class="specialty-card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/smoothing_treatment.jpeg" alt="Pura Luxe Smoothing Treatment" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Pura Luxe Smoothing</h3>
+                        <p class="card-desc">Eradicate frizz and reconstruct internal bonds using a premium, formaldehyde-free amino acid therapy custom-blended for your hair type.</p>
+                        <a href="about.html#puraluxe" class="card-link" id="specLink3">About Pura Luxe <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MEET SVETLANA (ABOUT SUMMARY) -->
+    <section class="about-summary" style="background-color: var(--color-bg-secondary); border-top: 1px solid rgba(192, 159, 87, 0.18);">
+        <div class="section-container about-summary-grid" style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 5rem; align-items: center;">
+            <div class="about-summary-img-box" style="position: relative;">
+                <div class="about-summary-img-frame" style="border: 1px solid rgba(192, 159, 87, 0.25); padding: 12px; border-radius: var(--radius-medium); background-color: var(--color-bg-primary); z-index: 2; position: relative; box-shadow: var(--shadow-luxe-subtle);">
+                    <img src="assets/profile.jpeg" alt="Svetlana Clark Stylist" style="width: 100%; border-radius: var(--radius-small); display: block; filter: saturate(0.95);">
+                </div>
+                <div class="about-summary-img-bg" style="position: absolute; top: 30px; left: -30px; width: 100%; height: 100%; border: 1px solid rgba(192, 159, 87, 0.18); border-radius: var(--radius-medium); z-index: 1; pointer-events: none;"></div>
+            </div>
+            <div class="about-summary-text">
+                <span class="section-label">The Artist</span>
+                <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem; font-family: var(--font-heading);">Meet Svetlana Clark</h2>
+                <p style="color: var(--color-text-secondary); font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                    With over 20 years behind the chair — beginning my career in Moscow and continuing in Houston — I design hair that elevates how women feel about themselves. Because let’s be honest… hair is everything.
+                </p>
+                <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.7; margin-bottom: 2rem;">
+                    I take time to understand the woman in my chair — her goals, her standards, and her comfort with maintenance. When you leave, you should feel polished, confident, and entirely yourself.
+                </p>
+                <a href="about.html" class="btn-primary outline" id="meetArtistBtn" style="display: inline-block;">My Story & Lookbook</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR PHILOSOPHY -->
+    <section class="philosophy-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Standards</span>
+                <h2 class="section-title">The Hair Philosophy</h2>
+            </div>
+            <div class="philosophy-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem;">
+                <div class="philosophy-card" style="background-color: var(--color-bg-secondary); border: var(--border-gold-subtle); padding: 3rem 2.5rem; border-radius: var(--radius-medium); transition: var(--transition-smooth); box-shadow: var(--shadow-luxe-subtle);">
+                    <div class="phil-icon" style="font-size: 2.2rem; color: var(--color-accent-gold); margin-bottom: 1.5rem;"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h3 style="font-size: 1.4rem; margin-bottom: 1rem; color: var(--color-text-primary);">Hair Health First</h3>
+                    <p style="color: var(--color-text-secondary); font-size: 0.95rem; line-height: 1.7;">Achieving your dream look should never come at the cost of your hair's integrity. We use premium bond-protecting formulas and safe, organic active treatments to repair and preserve natural shine.</p>
+                </div>
+                <div class="philosophy-card" style="background-color: var(--color-bg-secondary); border: var(--border-gold-subtle); padding: 3rem 2.5rem; border-radius: var(--radius-medium); transition: var(--transition-smooth); box-shadow: var(--shadow-luxe-subtle);">
+                    <div class="phil-icon" style="font-size: 2.2rem; color: var(--color-accent-gold); margin-bottom: 1.5rem;"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <h3 style="font-size: 1.4rem; margin-bottom: 1rem; color: var(--color-text-primary);">Graceful Transitions</h3>
+                    <p style="color: var(--color-text-secondary); font-size: 0.95rem; line-height: 1.7;">Specializing in low-maintenance gray blending and hand-painted balayage. We create smooth, dimensional gradients that grow out naturally, eliminating harsh lines of demarcation.</p>
+                </div>
+                <div class="philosophy-card" style="background-color: var(--color-bg-secondary); border: var(--border-gold-subtle); padding: 3rem 2.5rem; border-radius: var(--radius-medium); transition: var(--transition-smooth); box-shadow: var(--shadow-luxe-subtle);">
+                    <div class="phil-icon" style="font-size: 2.2rem; color: var(--color-accent-gold); margin-bottom: 1.5rem;"><i class="fa-solid fa-gem"></i></div>
+                    <h3 style="font-size: 1.4rem; margin-bottom: 1rem; color: var(--color-text-primary);">Bespoke Luxury</h3>
+                    <p style="color: var(--color-text-secondary); font-size: 0.95rem; line-height: 1.7;">Enjoy a private, one-on-one session in a quiet, high-end styling suite. Every detail is structured around your lifestyle, energy, and styling routine for personalized, lasting elegance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TREATMENT COMPARISON SECTION -->
+    <section class="comparison-section" id="comparison" style="background-color: var(--color-bg-primary); padding: 5rem 0;">
+        <div class="section-container">
+            <div class="section-header" style="margin-bottom: 3.5rem; text-align: center;">
+                <span class="section-label">Comparison</span>
+                <h2 class="section-title">Traditional vs. Signature Styling</h2>
+                <p style="color: var(--color-text-secondary); margin-top: 1rem; max-width: 650px; margin-left: auto; margin-right: auto; line-height: 1.7;">
+                    How does Svetlana's custom, health-first approach compare to standard high-maintenance salon treatments?
+                </p>
+            </div>
+
+            <div class="comparison-grid" id="comparisonGrid">
+                <!-- Card 1: Gray Blending -->
+                <div class="comparison-card">
+                    <div class="comparison-card-header">
+                        <h3>Gray Blending</h3>
+                        <span class="comparison-tag">vs. Solid Base Color</span>
+                    </div>
+                    <div class="comparison-body">
+                        <div class="comparison-col traditional">
+                            <h4 class="col-title">Traditional Dye</h4>
+                            <ul class="comparison-list">
+                                <li class="item-no">Harsh root line grows out in 3-4 weeks</li>
+                                <li class="item-no">Solid, flat pigment covers hair opacity</li>
+                                <li class="item-no">Chemical fatigue on fine cuticles</li>
+                                <li class="item-no">High maintenance: Visit every 4 weeks</li>
+                            </ul>
+                        </div>
+                        <div class="comparison-col signature">
+                            <h4 class="col-title">Signature Blend</h4>
+                            <ul class="comparison-list">
+                                <li class="item-yes">Blurred regrowth lines transition softly</li>
+                                <li class="item-yes">Multi-tonal highlights mimic natural sun</li>
+                                <li class="item-yes">Protective K18 peptide bond building</li>
+                                <li class="item-yes">Low maintenance: Visit every 12-16 weeks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Dimensional Balayage -->
+                <div class="comparison-card">
+                    <div class="comparison-card-header">
+                        <h3>Luxury Balayage</h3>
+                        <span class="comparison-tag">vs. Foil Highlights</span>
+                    </div>
+                    <div class="comparison-body">
+                        <div class="comparison-col traditional">
+                            <h4 class="col-title">Foil Highlights</h4>
+                            <ul class="comparison-list">
+                                <li class="item-no">Brassy fade and zebra-stripe look</li>
+                                <li class="item-no">Dry texture and heavy structural stress</li>
+                                <li class="item-no">No built-in bond reconstructors</li>
+                                <li class="item-no">Requires root bleach touchups</li>
+                            </ul>
+                        </div>
+                        <div class="comparison-col signature">
+                            <h4 class="col-title">Dimensional Balayage</h4>
+                            <ul class="comparison-list">
+                                <li class="item-yes">Custom hand-painted transitions</li>
+                                <li class="item-yes">Natural bounce and dimensional shimmer</li>
+                                <li class="item-yes">K18 pre-treated for fine hair safety</li>
+                                <li class="item-yes">Grows out beautifully for months</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: PuraLuxe Treatment -->
+                <div class="comparison-card">
+                    <div class="comparison-card-header">
+                        <h3>Pura Luxe Smoothing</h3>
+                        <span class="comparison-tag">vs. Keratin / Relaxers</span>
+                    </div>
+                    <div class="comparison-body">
+                        <div class="comparison-col traditional">
+                            <h4 class="col-title">Keratin Straightening</h4>
+                            <ul class="comparison-list">
+                                <li class="item-no">Contains toxic formaldehyde fumes</li>
+                                <li class="item-no">Leaves fine hair flat and lifeless</li>
+                                <li class="item-no">Alters permanent disulfide bonds</li>
+                                <li class="item-no">Requires avoiding moisture for days</li>
+                            </ul>
+                        </div>
+                        <div class="comparison-col signature">
+                            <h4 class="col-title">Pura Luxe Amino</h4>
+                            <ul class="comparison-list">
+                                <li class="item-yes">100% Non-toxic and formaldehyde-free</li>
+                                <li class="item-yes">Retains natural volume and health</li>
+                                <li class="item-yes">Keratin-rich strengthening system</li>
+                                <li class="item-yes">Wash, style, and swim immediately</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3.5rem;">
+                <a href="services.html" class="btn-primary gold" id="comparisonBtnLearn" style="display: inline-block; text-decoration: none;">Find Your Perfect Service</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOOKBOOK GALLERY PREVIEW -->
+    <section class="lookbook-preview" style="background-color: var(--color-bg-secondary); border-top: 1px solid rgba(192, 159, 87, 0.18); border-bottom: 1px solid rgba(192, 159, 87, 0.18);">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Lookbook</span>
+                <h2 class="section-title">Client Transformations</h2>
+                <p style="color: var(--color-text-secondary); margin-top: 1rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                    Explore real before-and-after results, dimensional gray blending, and custom hairstyles crafted by Svetlana.
+                </p>
+            </div>
+            
+            <div class="lookbook-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                <!-- Item 1 -->
+                <div class="lookbook-item" data-src="assets/lookbook_1.jpeg" data-caption="Soft Gray Blending Transformation" style="position: relative; overflow: hidden; border-radius: var(--radius-medium); border: var(--border-gold-subtle); aspect-ratio: 1; cursor: pointer; box-shadow: var(--shadow-luxe-subtle);">
+                    <img src="assets/lookbook_1.jpeg" alt="Gray Blending Transformation" style="width: 100%; height: 100%; object-fit: cover; transition: var(--transition-smooth); display: block;">
+                    <div class="lookbook-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(250, 248, 245, 0.95), transparent 80%); opacity: 0; transition: var(--transition-fast); display: flex; align-items: flex-end; padding: 1.5rem; justify-content: space-between; z-index: 2;">
+                        <span style="font-family: var(--font-accent); font-weight: 500; font-size: 0.85rem; letter-spacing: 1px; color: var(--color-text-primary);">Gray Blending</span>
+                        <i class="fa-solid fa-expand" style="color: var(--color-accent-gold); font-size: 1rem;"></i>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="lookbook-item" data-src="assets/lookbook_2.jpeg" data-caption="Seamless Dimensional Balayage" style="position: relative; overflow: hidden; border-radius: var(--radius-medium); border: var(--border-gold-subtle); aspect-ratio: 1; cursor: pointer; box-shadow: var(--shadow-luxe-subtle);">
+                    <img src="assets/lookbook_2.jpeg" alt="Dimensional Balayage" style="width: 100%; height: 100%; object-fit: cover; transition: var(--transition-smooth); display: block;">
+                    <div class="lookbook-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(250, 248, 245, 0.95), transparent 80%); opacity: 0; transition: var(--transition-fast); display: flex; align-items: flex-end; padding: 1.5rem; justify-content: space-between; z-index: 2;">
+                        <span style="font-family: var(--font-accent); font-weight: 500; font-size: 0.85rem; letter-spacing: 1px; color: var(--color-text-primary);">Dimensional Balayage</span>
+                        <i class="fa-solid fa-expand" style="color: var(--color-accent-gold); font-size: 1rem;"></i>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="lookbook-item" data-src="assets/lookbook_3.jpeg" data-caption="Textured Fine Hair Highlight" style="position: relative; overflow: hidden; border-radius: var(--radius-medium); border: var(--border-gold-subtle); aspect-ratio: 1; cursor: pointer; box-shadow: var(--shadow-luxe-subtle);">
+                    <img src="assets/lookbook_3.jpeg" alt="Fine Hair Highlights" style="width: 100%; height: 100%; object-fit: cover; transition: var(--transition-smooth); display: block;">
+                    <div class="lookbook-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(250, 248, 245, 0.95), transparent 80%); opacity: 0; transition: var(--transition-fast); display: flex; align-items: flex-end; padding: 1.5rem; justify-content: space-between; z-index: 2;">
+                        <span style="font-family: var(--font-accent); font-weight: 500; font-size: 0.85rem; letter-spacing: 1px; color: var(--color-text-primary);">Fine Hair Highlights</span>
+                        <i class="fa-solid fa-expand" style="color: var(--color-accent-gold); font-size: 1rem;"></i>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="lookbook-item" data-src="assets/lookbook_4.jpeg" data-caption="Precision Short Pixie Cut" style="position: relative; overflow: hidden; border-radius: var(--radius-medium); border: var(--border-gold-subtle); aspect-ratio: 1; cursor: pointer; box-shadow: var(--shadow-luxe-subtle);">
+                    <img src="assets/lookbook_4.jpeg" alt="Pixie Cut Style" style="width: 100%; height: 100%; object-fit: cover; transition: var(--transition-smooth); display: block;">
+                    <div class="lookbook-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(250, 248, 245, 0.95), transparent 80%); opacity: 0; transition: var(--transition-fast); display: flex; align-items: flex-end; padding: 1.5rem; justify-content: space-between; z-index: 2;">
+                        <span style="font-family: var(--font-accent); font-weight: 500; font-size: 0.85rem; letter-spacing: 1px; color: var(--color-text-primary);">Precision Pixie</span>
+                        <i class="fa-solid fa-expand" style="color: var(--color-accent-gold); font-size: 1rem;"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3.5rem;">
+                <a href="about.html" class="btn-primary gold" id="viewFullGalleryBtn">View Full Lookbook & Reviews</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SLIDER -->
+    <section class="testimonials-home" style="background-color: var(--color-bg-primary); border-bottom: 1px solid rgba(192, 159, 87, 0.18);">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Guest Experience</span>
+                <h2 class="section-title">Client Love</h2>
+            </div>
+            
+            <div class="testimonial-carousel" style="position: relative; max-width: 800px; margin: 0 auto; min-height: 250px;">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-slide active">
+                    <p class="test-quote" style="font-size: 1.4rem; font-family: var(--font-heading); font-style: italic; text-align: center; line-height: 1.7; color: var(--color-text-primary); margin-bottom: 2rem;">"Svetlana has been wonderful since day 1. Very attentive to what I want, uses quality products, and has taken the time to know me. I love that we have worked together to accentuate my whites while keeping it very natural."</p>
+                    <span class="test-author" style="display: block; text-align: center; font-family: var(--font-accent); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 2px; color: var(--color-accent-gold); font-weight: 600;">Helene Dugas</span>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-slide">
+                    <p class="test-quote" style="font-size: 1.4rem; font-family: var(--font-heading); font-style: italic; text-align: center; line-height: 1.7; color: var(--color-text-primary); margin-bottom: 2rem;">"I love the way Svetlana does my cut and color. She turned my hair from purple to a beautiful blonde. Gave me one of the best haircuts I’ve ever had. Love this woman!"</p>
+                    <span class="test-author" style="display: block; text-align: center; font-family: var(--font-accent); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 2px; color: var(--color-accent-gold); font-weight: 600;">Lea Montgomery</span>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-slide">
+                    <p class="test-quote" style="font-size: 1.4rem; font-family: var(--font-heading); font-style: italic; text-align: center; line-height: 1.7; color: var(--color-text-primary); margin-bottom: 2rem;">"Love Svetlana! She always does an amazing job with my hair coloring and cut. She knows just what tone works for me and treats my hair more carefully than any other stylist I’ve been to. I’ve loved every visit with her and look forward to many more."</p>
+                    <span class="test-author" style="display: block; text-align: center; font-family: var(--font-accent); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 2px; color: var(--color-accent-gold); font-weight: 600;">Molly Hydorn</span>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-slide">
+                    <p class="test-quote" style="font-size: 1.4rem; font-family: var(--font-heading); font-style: italic; text-align: center; line-height: 1.7; color: var(--color-text-primary); margin-bottom: 2rem;">"I was looking unsuccessfully for some time for a good hairdresser. Finally I am very happy to have Sveta as my hairdresser today. Sveta is very professional and skilled. She performs high quality hairstyles."</p>
+                    <span class="test-author" style="display: block; text-align: center; font-family: var(--font-accent); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 2px; color: var(--color-accent-gold); font-weight: 600;">Nadia Dubas</span>
+                </div>
+            </div>
+            
+            <div class="carousel-dots" style="display: flex; justify-content: center; gap: 0.5rem; margin-top: 2rem;">
+                <!-- Filled dynamically by app.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE FAQ SECTION -->
+    <section class="faq-section" id="faq">
+        <div class="section-container" style="max-width: 800px;">
+            <div class="section-header">
+                <span class="section-label">Questions</span>
+                <h2 class="section-title">Common Inquiries</h2>
+            </div>
+            
+            <div class="faq-accordion" style="display: flex; flex-direction: column; gap: 1.5rem;">
+                <!-- FAQ 1 -->
+                <div class="faq-item" style="background-color: var(--color-bg-secondary); border: var(--border-gold-subtle); border-radius: var(--radius-medium); overflow: hidden; transition: var(--transition-fast);">
+                    <button class="faq-question-btn" style="width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 1.75rem 2rem; background: transparent; border: none; cursor: pointer; text-align: left;">
+                        <h4 style="font-size: 1.1rem; color: var(--color-text-primary); font-family: var(--font-accent); font-weight: 500;">What is Gray Blending and how is it different from full coverage?</h4>
+                        <span class="faq-icon" style="color: var(--color-accent-gold); font-size: 1.1rem; transition: var(--transition-fast);"><i class="fa-solid fa-plus"></i></span>
+                    </button>
+                    <div class="faq-answer-wrapper" style="max-height: 0; overflow: hidden; transition: max-height 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
+                        <p style="padding: 0 2rem 1.75rem; color: var(--color-text-secondary); font-size: 0.95rem; line-height: 1.7;">
+                            Unlike single-process color which applies one solid color to completely cover silver strands (creating a harsh root growth line in 3-4 weeks), Gray Blending utilizes multi-tonal balayage and fine highlights to blend your silver tones naturally. This creates a soft, sun-kissed transition that grows out beautifully over 3-6 months.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item" style="background-color: var(--color-bg-secondary); border: var(--border-gold-subtle); border-radius: var(--radius-medium); overflow: hidden; transition: var(--transition-fast);">
+                    <button class="faq-question-btn" style="width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 1.75rem 2rem; background: transparent; border: none; cursor: pointer; text-align: left;">
+                        <h4 style="font-size: 1.1rem; color: var(--color-text-primary); font-family: var(--font-accent); font-weight: 500;">Why do I need a Virtual Consultation before booking?</h4>
+                        <span class="faq-icon" style="color: var(--color-accent-gold); font-size: 1.1rem; transition: var(--transition-fast);"><i class="fa-solid fa-plus"></i></span>
+                    </button>
+                    <div class="faq-answer-wrapper" style="max-height: 0; overflow: hidden; transition: max-height 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
+                        <p style="padding: 0 2rem 1.75rem; color: var(--color-text-secondary); font-size: 0.95rem; line-height: 1.7;">
+                            A brief digital consultation allows us to review your current hair length, density, and chemical processing history. Hair health is my number one priority—understanding your history helps me formulate the safest coloring path and ensure we block off the appropriate amount of hours for your salon appointment.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item" style="background-color: var(--color-bg-secondary); border: var(--border-gold-subtle); border-radius: var(--radius-medium); overflow: hidden; transition: var(--transition-fast);">
+                    <button class="faq-question-btn" style="width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 1.75rem 2rem; background: transparent; border: none; cursor: pointer; text-align: left;">
+                        <h4 style="font-size: 1.1rem; color: var(--color-text-primary); font-family: var(--font-accent); font-weight: 500;">What is the Pura Luxe treatment? Is it safe for colored hair?</h4>
+                        <span class="faq-icon" style="color: var(--color-accent-gold); font-size: 1.1rem; transition: var(--transition-fast);"><i class="fa-solid fa-plus"></i></span>
+                    </button>
+                    <div class="faq-answer-wrapper" style="max-height: 0; overflow: hidden; transition: max-height 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
+                        <p style="padding: 0 2rem 1.75rem; color: var(--color-text-secondary); font-size: 0.95rem; line-height: 1.7;">
+                            Yes! Pura Luxe is a premium, formaldehyde-free, sulfate-free amino acid treatment. It alters the internal sulfur bonds of the hair fiber safely without emitting toxic fumes. It is highly recommended for colored, dry, or frizz-prone hair to lock in moisture, create maximum shine, and cut blow-dry time in half.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="faq-item" style="background-color: var(--color-bg-secondary); border: var(--border-gold-subtle); border-radius: var(--radius-medium); overflow: hidden; transition: var(--transition-fast);">
+                    <button class="faq-question-btn" style="width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 1.75rem 2rem; background: transparent; border: none; cursor: pointer; text-align: left;">
+                        <h4 style="font-size: 1.1rem; color: var(--color-text-primary); font-family: var(--font-accent); font-weight: 500;">Where is the salon studio located?</h4>
+                        <span class="faq-icon" style="color: var(--color-accent-gold); font-size: 1.1rem; transition: var(--transition-fast);"><i class="fa-solid fa-plus"></i></span>
+                    </button>
+                    <div class="faq-answer-wrapper" style="max-height: 0; overflow: hidden; transition: max-height 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
+                        <p style="padding: 0 2rem 1.75rem; color: var(--color-text-secondary); font-size: 0.95rem; line-height: 1.7;">
+                            My private salon suite is located inside Sola Salon Studios at 5757 Woodway Drive, Suite G100 (Suite 20), Houston, TX 77057. It provides a quiet, luxury, one-on-one environment for your ultimate comfort. Detailed maps and directions can be found on our dedicated <a href="contact.html" style="color: var(--color-accent-gold); text-decoration: underline;">Contact Page</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HERO CALL-TO-ACTION BANNER -->
+    <section class="cta-banner" style="padding-top: 4rem; padding-bottom: 8.5rem; position: relative; overflow: hidden;">
+        <div class="section-container" style="max-width: 1000px; text-align: center; background: linear-gradient(135deg, rgba(255, 255, 255, 0.85), rgba(241, 239, 234, 0.95)); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); border: var(--border-gold-glow); padding: 5rem 3rem; border-radius: var(--radius-large); box-shadow: var(--shadow-luxe-glow);">
+            <span class="section-label" style="letter-spacing: 6px;">Your Transformation Awaits</span>
+            <h2 style="font-size: clamp(2rem, 4vw, 3rem); font-weight: 500; margin-bottom: 1.5rem; font-family: var(--font-heading);">Ready to Elevate Your Hair Health?</h2>
+            <p style="color: var(--color-text-secondary); max-width: 600px; margin: 0 auto 3rem; font-size: 1.1rem; line-height: 1.7;">
+                Book a styling reservation, request a virtual consultation, or check out our services guide. Let's design a custom plan tailored to your hair type and lifestyle.
+            </p>
+            <div class="cta-buttons" style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+                <button class="btn-primary gold open-booking-wizard" id="ctaBookBtn">Book Appointment</button>
+                <a href="contact.html" class="btn-primary outline" id="ctaContactBtn">Contact & Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <img src="assets/logo.png" alt="Svetlana Clark Logo" class="footer-logo">
+                <p>Personalized dimensional color, expert gray blending, and precision haircuts designed to promote long-term hair health.</p>
+                <div class="footer-socials">
+                    <a href="https://instagram.com/svetlanaclarkhairdesign" target="_blank" class="social-circle" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com/SvetlanaClarkHairDesign" target="_blank" class="social-circle" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://tiktok.com/@svetlanaclarkhairdesign" target="_blank" class="social-circle" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://yelp.com/biz/SvetlanaClarkHairDesign" target="_blank" class="social-circle" aria-label="Yelp"><i class="fa-brands fa-yelp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services Menu</a></li>
+                    <li><a href="about.html">Meet Svetlana</a></li>
+                    <li><a href="new-clients.html">New Clients</a></li>
+                    <li><a href="contact.html">Contact Info</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p><i class="fa-solid fa-location-dot" style="margin-right: 0.5rem; color: var(--color-accent-gold);"></i> 5757 Woodway Dr, G100 Suite 20, Houston, TX 77057</p>
+                <p><i class="fa-solid fa-phone" style="margin-right: 0.5rem; color: var(--color-accent-gold);"></i> 832-485-8795</p>
+                <p><i class="fa-solid fa-envelope" style="margin-right: 0.5rem; color: var(--color-accent-gold);"></i> svclark9@gmail.com</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Svetlana Clark Hair Design. All rights reserved.</p>
+            <p>Designed for Fine Hair & Flawless Transitions</p>
+        </div>
+    </footer>
+
+    <!-- BOOKING CONCIERGE MODAL -->
+    <div class="booking-wizard-overlay" id="bookingWizard"></div>
+
+    <!-- LOOKBOOK LIGHTBOX MODAL -->
+    <div class="lightbox-modal" id="lightboxModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(250, 248, 245, 0.98); z-index: 2000; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.4s ease;">
+        <button class="lightbox-close" id="lightboxCloseBtn" style="position: absolute; top: 2rem; right: 2rem; background: transparent; border: none; color: var(--color-text-primary); font-size: 2.5rem; cursor: pointer; transition: var(--transition-fast); z-index: 2010;">&times;</button>
+        <div class="lightbox-content" style="max-width: 90%; max-height: 80%; display: flex; flex-direction: column; align-items: center; position: relative;">
+            <img class="lightbox-img" id="lightboxImg" src="" alt="Enlarged transformation image" style="max-width: 100%; max-height: 70vh; border-radius: var(--radius-small); border: 1px solid rgba(192, 159, 87, 0.2); box-shadow: var(--shadow-luxe-glow); object-fit: contain;">
+            <p class="lightbox-caption" id="lightboxCaption" style="font-family: var(--font-accent); color: var(--color-accent-gold); margin-top: 1.5rem; font-size: 1rem; letter-spacing: 1px; text-transform: uppercase; text-align: center;"></p>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="app.js"></script>
+</body>
+</html>
+

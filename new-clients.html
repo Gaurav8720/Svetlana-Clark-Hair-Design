@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let’s Get in Touch | Svetlana Clark Hair Design – Pearland & Houston</title>
+    <meta name="description" content="Welcome! Let's get started on your hair journey. Read our onboarding guide, complete the New Guest Form, or take the Hair Health Quiz.">
+    
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- FIXED GLASSMORPHIC HEADER -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo-link" id="logoLink">
+                <img src="assets/logo.png" alt="Svetlana Clark Logo" class="logo-img">
+                <span class="logo-text">Svetlana Clark</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link" id="navHome">Home</a></li>
+                    <li><a href="services.html" class="nav-link" id="navServices">Services</a></li>
+                    <li><a href="about.html" class="nav-link" id="navAbout">About</a></li>
+                    <li><a href="new-clients.html" class="nav-link active" id="navNewClients">New Clients</a></li>
+                    <li><a href="contact.html" class="nav-link" id="navContact">Contact</a></li>
+                    <li><button class="btn-header-book open-booking-wizard" id="headerBookBtn">Book Now</button></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" aria-label="Toggle menu" id="hamburgerBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- NEW CLIENT INTRO (Noir styled) -->
+    <section class="new-clients-intro" style="padding-top: 170px;">
+        <div class="section-container">
+            <div class="section-header" style="margin-bottom: 4rem;">
+                <span class="section-label">Onboarding Guide</span>
+                <h2 class="section-title">First Time Clients</h2>
+            </div>
+            
+            <div style="max-width: 850px; margin: 0 auto; text-align: center; background-color: var(--color-bg-secondary); padding: 4rem 3.5rem; border-radius: var(--radius-large); box-shadow: var(--shadow-luxe-subtle); border: var(--border-gold-subtle);">
+                <p style="font-size: 1.2rem; color: var(--color-text-primary); margin-bottom: 2.5rem; line-height: 1.8;">
+                    Welcome! I look forward to working with you. Prior to scheduling your first appointment — especially for dimensional coloring or gray blending services — completing a virtual consultation is key. This helps us align on your hair goals, assess your hair's current condition, and block out the perfect amount of time for a spectacular result.
+                </p>
+                
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin: 4rem 0; text-align: left;">
+                    <div style="padding: 2rem 1.5rem; background-color: rgba(10, 9, 8, 0.4); border-radius: var(--radius-medium); border-top: 2px solid var(--color-accent-gold); border-left: var(--border-gold-subtle); border-right: var(--border-gold-subtle); border-bottom: var(--border-gold-subtle);">
+                        <h4 style="font-family: var(--font-accent); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 2px; margin-bottom: 0.75rem; color: var(--color-accent-gold); font-weight: 600;">1. Intake</h4>
+                        <p style="font-size: 0.95rem; margin: 0; color: var(--color-text-secondary); line-height: 1.6;">Fill out the digital Guest Intake Form below.</p>
+                    </div>
+                    <div style="padding: 2rem 1.5rem; background-color: rgba(10, 9, 8, 0.4); border-radius: var(--radius-medium); border-top: 2px solid var(--color-accent-gold); border-left: var(--border-gold-subtle); border-right: var(--border-gold-subtle); border-bottom: var(--border-gold-subtle);">
+                        <h4 style="font-family: var(--font-accent); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 2px; margin-bottom: 0.75rem; color: var(--color-accent-gold); font-weight: 600;">2. Consultation</h4>
+                        <p style="font-size: 0.95rem; margin: 0; color: var(--color-text-secondary); line-height: 1.6;">Coordinate your virtual consultation slot.</p>
+                    </div>
+                    <div style="padding: 2rem 1.5rem; background-color: rgba(10, 9, 8, 0.4); border-radius: var(--radius-medium); border-top: 2px solid var(--color-accent-gold); border-left: var(--border-gold-subtle); border-right: var(--border-gold-subtle); border-bottom: var(--border-gold-subtle);">
+                        <h4 style="font-family: var(--font-accent); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 2px; margin-bottom: 0.75rem; color: var(--color-accent-gold); font-weight: 600;">3. Action Plan</h4>
+                        <p style="font-size: 0.95rem; margin: 0; color: var(--color-text-secondary); line-height: 1.6;">Co-create your dream long-term hair plan.</p>
+                    </div>
+                </div>
+
+                <button class="btn-primary gold open-guest-intake" style="display: inline-block; cursor: pointer; border: none; font-size: 1.05rem;" id="guestFormBtn">Complete New Guest Form</button>
+                
+                <p style="margin-top: 2rem; font-size: 0.9rem; color: var(--color-text-muted);">
+                    Note: I typically review and respond to forms within 24-48 hours, Monday through Friday.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE HAIR HEALTH QUIZ -->
+    <section class="hair-quiz-section" style="background-color: var(--color-bg-primary); border-top: 1px solid rgba(223, 186, 107, 0.08);">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Interactive Consultation</span>
+                <h2 class="section-title">Hair Health & Recommendation Quiz</h2>
+                <p style="color: var(--color-text-secondary); margin-top: 1rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                    Not sure what treatment to request? Answer these four simple questions to receive a tailored styling recommendation.
+                </p>
+            </div>
+
+            <div class="quiz-box">
+                <div class="quiz-progress-bar">
+                    <div class="quiz-progress-fill"></div>
+                </div>
+
+                <div class="quiz-wrapper">
+                    <!-- Step 1: Texture -->
+                    <div class="quiz-step active" data-step="texture">
+                        <h3 class="quiz-question">1. What is your natural hair texture?</h3>
+                        <div class="quiz-grid">
+                            <div class="quiz-card" data-value="fine">
+                                <h4>Fine & Delicate</h4>
+                                <p>Feels soft, breaks easily, struggles to hold volume</p>
+                            </div>
+                            <div class="quiz-card" data-value="medium">
+                                <h4>Medium & Balanced</h4>
+                                <p>Standard texture, easy to manage, holds styling well</p>
+                            </div>
+                            <div class="quiz-card" data-value="coarse">
+                                <h4>Coarse & Thick</h4>
+                                <p>Feels heavy, very dense, takes long to blow dry</p>
+                            </div>
+                            <div class="quiz-card" data-value="curly">
+                                <h4>Wavy & Curly</h4>
+                                <p>Natural patterns ranging from waves to coils</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Health State -->
+                    <div class="quiz-step" data-step="state">
+                        <h3 class="quiz-question">2. How would you describe your hair's current health?</h3>
+                        <div class="quiz-grid">
+                            <div class="quiz-card" data-value="healthy">
+                                <h4>Healthy / Virgin</h4>
+                                <p>Rarely colored, soft shine, little to no split ends</p>
+                            </div>
+                            <div class="quiz-card" data-value="colored">
+                                <h4>Colored / Highlighted</h4>
+                                <p>Regular single processes, balayage, or glossing sessions</p>
+                            </div>
+                            <div class="quiz-card" data-value="damaged">
+                                <h4>Dry & Damaged</h4>
+                                <p>Over-bleached, heat-damaged, prone to breakage and frizz</p>
+                            </div>
+                            <div class="quiz-card" data-value="gray">
+                                <h4>Natural Gray / White</h4>
+                                <p>Embracing natural silver tones, textured or wiry feel</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Primary Concern -->
+                    <div class="quiz-step" data-step="concern">
+                        <h3 class="quiz-question">3. What is your biggest daily hair struggle?</h3>
+                        <div class="quiz-grid">
+                            <div class="quiz-card" data-value="frizz">
+                                <h4>Frizz & Humidity</h4>
+                                <p>Expands instantly in damp air, lacks silkiness</p>
+                            </div>
+                            <div class="quiz-card" data-value="gray">
+                                <h4>Harsh Gray Regrowth</h4>
+                                <p>Strong contrast line when gray roots grow in</p>
+                            </div>
+                            <div class="quiz-card" data-value="volume">
+                                <h4>Flat & Lacks Volume</h4>
+                                <p>Lies flat to the scalp, haircuts feel heavy</p>
+                            </div>
+                            <div class="quiz-card" data-value="brass">
+                                <h4>Brassy / Yellowing Tones</h4>
+                                <p>Blondes or gray tones turning yellow over time</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 4: Goal -->
+                    <div class="quiz-step" data-step="goal">
+                        <h3 class="quiz-question">4. What is your ultimate hair styling goal?</h3>
+                        <div class="quiz-grid">
+                            <div class="quiz-card" data-value="low-maintenance">
+                                <h4>Low Maintenance Color</h4>
+                                <p>Color that grows out seamlessly with soft boundaries</p>
+                            </div>
+                            <div class="quiz-card" data-value="smooth">
+                                <h4>Frizz-Free & Smooth</h4>
+                                <p>Glossy, straight, strong fibers and fast blow-dry times</p>
+                            </div>
+                            <div class="quiz-card" data-value="volume">
+                                <h4>Movement & Volume</h4>
+                                <p>Bouncy cuts, light layers, structure for fine hair</p>
+                            </div>
+                            <div class="quiz-card" data-value="blonding">
+                                <h4>Bright Dimensional Blonde</h4>
+                                <p>Sleek hand-painted balayage and clean luxury highlights</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Result Box (Hidden by default) -->
+                <div class="quiz-result-box">
+                    <span class="section-label">Your Recommendation</span>
+                    <div class="result-badge">Pura Luxe Smoothing Treatment</div>
+                    <p class="result-details">Your answers indicate that your hair needs intense frizz control and structural strengthening. We recommend the Pura Luxe Amino Acid smoothing treatment...</p>
+                    <div class="result-actions">
+                        <button class="btn-primary gold open-booking-wizard" id="quizBookBtn">Book Consultation</button>
+                        <button class="btn-primary outline" id="restartQuiz">Take Quiz Again</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <img src="assets/logo.png" alt="Svetlana Clark Logo" class="footer-logo">
+                <p>Personalized dimensional color, expert gray blending, and precision haircuts designed to promote long-term hair health.</p>
+                <div class="footer-socials">
+                    <a href="https://instagram.com/svetlanaclarkhairdesign" target="_blank" class="social-circle" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com/SvetlanaClarkHairDesign" target="_blank" class="social-circle" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://tiktok.com/@svetlanaclarkhairdesign" target="_blank" class="social-circle" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://yelp.com/biz/SvetlanaClarkHairDesign" target="_blank" class="social-circle" aria-label="Yelp"><i class="fa-brands fa-yelp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services Menu</a></li>
+                    <li><a href="about.html">Meet Svetlana</a></li>
+                    <li><a href="new-clients.html">New Clients</a></li>
+                    <li><a href="contact.html">Contact Info</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p><i class="fa-solid fa-location-dot" style="margin-right: 0.5rem; color: var(--color-accent-gold);"></i> 5757 Woodway Dr, G100 Suite 20, Houston, TX 77057</p>
+                <p><i class="fa-solid fa-phone" style="margin-right: 0.5rem; color: var(--color-accent-gold);"></i> 832-485-8795</p>
+                <p><i class="fa-solid fa-envelope" style="margin-right: 0.5rem; color: var(--color-accent-gold);"></i> svclark9@gmail.com</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Svetlana Clark Hair Design. All rights reserved.</p>
+            <p>Designed for Fine Hair & Flawless Transitions</p>
+        </div>
+    </footer>
+
+    <!-- BOOKING CONCIERGE MODAL -->
+    <div class="booking-wizard-overlay" id="bookingWizard"></div>
+
+    <!-- NEW GUEST INTAKE MODAL -->
+    <div class="booking-wizard-overlay" id="guestIntakeWizard">
+        <div class="booking-wizard-modal" style="max-width: 650px;">
+            <div class="wizard-header">
+                <div class="wizard-title">
+                    <h3>New Guest Intake Form</h3>
+                </div>
+                <button class="wizard-close" id="intakeCloseBtn">&times;</button>
+            </div>
+            <div class="wizard-body" style="padding: 2.5rem 2.25rem;">
+                <form id="guestIntakeForm">
+                    <!-- Step 1: Personal Info -->
+                    <div class="wizard-step active" data-step="personal">
+                        <p class="wizard-question" style="margin-bottom: 1.5rem;">Tell us about yourself</p>
+                        <div class="form-group" style="margin-bottom: 1.25rem;">
+                            <label for="intakeName" style="display: block; margin-bottom: 0.5rem; font-weight: 500; font-size: 0.95rem;">Full Name *</label>
+                            <input type="text" class="form-control" id="intakeName" placeholder="Your full name" required style="width: 100%; padding: 0.85rem 1rem; border-radius: var(--radius-medium); border: 1px solid rgba(192, 159, 87, 0.25); background-color: var(--color-bg-secondary); color: var(--color-text-primary); font-family: var(--font-body);">
+                        </div>
+                        <div class="form-group" style="margin-bottom: 1.25rem;">
+                            <label for="intakeEmail" style="display: block; margin-bottom: 0.5rem; font-weight: 500; font-size: 0.95rem;">Email Address *</label>
+                            <input type="email" class="form-control" id="intakeEmail" placeholder="Your email address" required style="width: 100%; padding: 0.85rem 1rem; border-radius: var(--radius-medium); border: 1px solid rgba(192, 159, 87, 0.25); background-color: var(--color-bg-secondary); color: var(--color-text-primary); font-family: var(--font-body);">
+                        </div>
+                        <div class="form-group" style="margin-bottom: 1.5rem;">
+                            <label for="intakePhone" style="display: block; margin-bottom: 0.5rem; font-weight: 500; font-size: 0.95rem;">Phone Number *</label>
+                            <input type="tel" class="form-control" id="intakePhone" placeholder="Your phone number" required style="width: 100%; padding: 0.85rem 1rem; border-radius: var(--radius-medium); border: 1px solid rgba(192, 159, 87, 0.25); background-color: var(--color-bg-secondary); color: var(--color-text-primary); font-family: var(--font-body);">
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Hair History -->
+                    <div class="wizard-step" data-step="history">
+                        <p class="wizard-question" style="margin-bottom: 1.5rem;">Your Hair History</p>
+                        <div class="form-group" style="margin-bottom: 1.25rem;">
+                            <label for="intakeHistory" style="display: block; margin-bottom: 0.5rem; font-weight: 500; font-size: 0.95rem;">Chemical / Color history in the last 2 years *</label>
+                            <textarea class="form-control" id="intakeHistory" placeholder="Please list box dye, bleach, perm, treatments, or highlights..." required style="width: 100%; height: 100px; padding: 0.85rem 1rem; border-radius: var(--radius-medium); border: 1px solid rgba(192, 159, 87, 0.25); background-color: var(--color-bg-secondary); color: var(--color-text-primary); font-family: var(--font-body); resize: none;"></textarea>
+                        </div>
+                        <div class="form-group" style="margin-bottom: 1.5rem;">
+                            <label for="intakeTexture" style="display: block; margin-bottom: 0.5rem; font-weight: 500; font-size: 0.95rem;">How would you describe your hair texture? *</label>
+                            <select id="intakeTexture" required style="width: 100%; padding: 0.85rem 1rem; border-radius: var(--radius-medium); border: 1px solid rgba(192, 159, 87, 0.25); background-color: var(--color-bg-secondary); color: var(--color-text-primary); font-family: var(--font-body);">
+                                <option value="" disabled selected>Select your texture...</option>
+                                <option value="fine">Fine / Thin</option>
+                                <option value="medium">Medium / Normal</option>
+                                <option value="thick">Thick / Coarse</option>
+                                <option value="curly">Curly / Wavy</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Hair Goals & Details -->
+                    <div class="wizard-step" data-step="goals">
+                        <p class="wizard-question" style="margin-bottom: 1.5rem;">Desired Styling & Goals</p>
+                        <div class="form-group" style="margin-bottom: 1.25rem;">
+                            <label for="intakeGoals" style="display: block; margin-bottom: 0.5rem; font-weight: 500; font-size: 0.95rem;">Describe your hair goals / desired look *</label>
+                            <textarea class="form-control" id="intakeGoals" placeholder="What kind of service are you hoping to achieve today?" required style="width: 100%; height: 100px; padding: 0.85rem 1rem; border-radius: var(--radius-medium); border: 1px solid rgba(192, 159, 87, 0.25); background-color: var(--color-bg-secondary); color: var(--color-text-primary); font-family: var(--font-body); resize: none;"></textarea>
+                        </div>
+                        <div class="form-group" style="margin-bottom: 1.5rem;">
+                            <label for="intakeReferral" style="display: block; margin-bottom: 0.5rem; font-weight: 500; font-size: 0.95rem;">How did you hear about Svetlana? *</label>
+                            <input type="text" class="form-control" id="intakeReferral" placeholder="Instagram, Google, Referral, etc." required style="width: 100%; padding: 0.85rem 1rem; border-radius: var(--radius-medium); border: 1px solid rgba(192, 159, 87, 0.25); background-color: var(--color-bg-secondary); color: var(--color-text-primary); font-family: var(--font-body);">
+                        </div>
+                    </div>
+
+                    <!-- Step 4: Summary -->
+                    <div class="wizard-step" data-step="summary">
+                        <p class="wizard-question" style="margin-bottom: 1.5rem;">Review Intake Profile</p>
+                        <div class="wizard-summary-card" id="intakeSummaryText" style="padding: 1.25rem; background: var(--color-bg-tertiary); border-radius: var(--radius-medium); border: var(--border-gold-subtle); margin-bottom: 1.5rem; font-size: 0.95rem; line-height: 1.7; color: var(--color-text-secondary);">
+                            <!-- Filled dynamically -->
+                        </div>
+                        <p style="font-size: 0.9rem; color: var(--color-text-muted); margin-bottom: 1.5rem;">
+                            By clicking submit, you confirm that your hair history is accurate. Svetlana will review your request.
+                        </p>
+                    </div>
+
+                    <!-- Step 5: Success -->
+                    <div class="wizard-step" data-step="success">
+                        <div style="text-align: center; padding: 1rem 0;">
+                            <div class="success-icon" style="width: 70px; height: 70px; border-radius: 50%; background-color: var(--color-bg-primary); border: 2px solid var(--color-accent-gold); display: flex; justify-content: center; align-items: center; color: var(--color-accent-gold); font-size: 2rem; margin: 0 auto 1.5rem; box-shadow: var(--shadow-glow-active);">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <h4 style="font-size: 1.4rem; font-family: var(--font-heading); margin-bottom: 0.75rem; color: var(--color-text-primary);">Intake Profile Saved!</h4>
+                            <p style="color: var(--color-text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem;">
+                                Your guest intake profile details have been saved successfully to your local dashboard profile.
+                            </p>
+                            <div class="wizard-success-summary" id="intakeSuccessSummary" style="margin-top: 1rem; padding: 0.85rem 1.25rem; background: var(--color-bg-secondary); border-radius: var(--radius-medium); border: 1px dashed rgba(192, 159, 87, 0.35); font-size: 0.9rem; text-align: left; max-width: 420px; margin: 0 auto 1.5rem; line-height: 1.5; color: var(--color-text-secondary);">
+                                <!-- Filled dynamically -->
+                            </div>
+                            <p style="color: var(--color-text-muted); font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.5rem;">
+                                Svetlana will review your profile details and reach out within 24-48 hours.
+                            </p>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="wizard-footer" style="display: flex; justify-content: space-between; margin-top: 2rem; border-top: 1px solid rgba(223, 186, 107, 0.1); padding-top: 1.5rem;">
+                    <button class="btn-form prev intake-btn-prev" style="visibility: hidden; background: transparent; color: var(--color-text-primary); border: 1px solid rgba(192, 159, 87, 0.35);">Back</button>
+                    <button class="btn-form next intake-btn-next" style="background: linear-gradient(135deg, var(--color-accent-gold), var(--color-accent-copper)); color: var(--color-bg-primary); border: none;">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="app.js"></script>
+</body>
+</html>
+
